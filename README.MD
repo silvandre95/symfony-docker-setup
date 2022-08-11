@@ -1,6 +1,12 @@
 # Setup your Symfony application with Docker
 
+## What do we have?
+ - PHP 8
+ - MySql 8
+ - Nginx Web Server
+ - phpMyAdmin 5
 
+<br>
 
 ## Lets do it step by step.
 - ### Clone this repository to your machine;
@@ -10,8 +16,10 @@
 - ### Open a bash terminal in your php container that you have just created;
 - ### Type `symfony check:requirements`; You must see a green message saying ' Your system is ready to run Symfony projects'.
 - ### Run this command `composer create-project symfony/skeleton .`;
-- ### Access `http://localhost:8080/`;
+- ### Open you new Symfony application here [http://localhost:8080](http://localhost:8080);
+- ### Open `phpMyAdmin` here [http://localhost:9005](http://localhost:9005);
 
+<br>
 
-## Done! 
+## Done!
 ## Now you have your Symfony application working!
