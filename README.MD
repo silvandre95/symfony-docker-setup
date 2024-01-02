@@ -15,9 +15,9 @@
 ## Lets do it step by step:
 - ### Clone this repository to your machine;
 - ### Go to `php/Dockerfile` and change the git `email` and `name`;
-- ### Go to `docker-compose.yml` and change the `databasename_db`;
+- ### Go to `.env` and change the variable `PROJECT_NAME`;
 - ### Now, run the `docker-compose.yml`
-- ### Open a bash terminal in your php container that you have just created;
+- ### Open a bash terminal in the php container that you have just created;
 - ### Type `symfony check:requirements`; You must see a green message saying ' Your system is ready to run Symfony projects'.
 - ### Run this command `composer create-project symfony/skeleton .`;
 - ### Open your new Symfony application here [http://localhost:8080](http://localhost:8080);
